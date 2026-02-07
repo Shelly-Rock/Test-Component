@@ -1,0 +1,31 @@
+.time-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 6px;
+  background: #153a5b;
+  border-radius: 14px;
+  width: fit-content;
+}
+
+.time-tab {
+  min-width: 52px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  color: #9bb3cc;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.time-tab:hover {
+  color: #ffffff;
+}
+
+.time-tab.active {
+  background: linear-gradient(135deg, #3ecbff, #a855f7);
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.5);
+}

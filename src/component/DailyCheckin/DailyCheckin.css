@@ -1,0 +1,174 @@
+/* .checkin__item {
+  position: relative;
+  background: linear-gradient(135deg, #0f2a4f, #07162f);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.checkin__left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.checkin__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7b61ff, #4facfe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkin__title {
+  color: #fff;
+  font-size: 14px;
+}
+
+.checkin__reward-text {
+  font-size: 12px;
+  color: #7ffcff;
+}
+
+.checkin__btn {
+  background: linear-gradient(135deg, #35d0ff, #1aa3ff);
+  border: none;
+  padding: 6px 18px;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.checkin__done {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #35d0ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkin__floating-reward {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #35d0ff;
+  font-size: 18px;
+  font-weight: 600;
+  animation: floatUp 1s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) scale(1.1);
+  }
+} */
+
+
+
+
+
+.checkin__item {
+  position: relative;
+  background: linear-gradient(135deg, #0f2a4f, #07162f);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.checkin__left {
+  display: flex;
+  gap: 12px;
+  margin-right: 12px;
+  align-items: center;
+}
+
+.checkin__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7b61ff, #4facfe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkin__title {
+  color: #fff;
+  font-size: 14px;
+}
+
+.checkin__reward-text {
+  font-size: 12px;
+  color: #7ffcff;
+}
+
+/* NÚT NHẬN */
+.checkin__btn {
+  background: linear-gradient(135deg, #35d0ff, #1aa3ff);
+  border: none;
+  padding: 6px 18px;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ✔ ĐÃ NHẬN */
+.checkin__done {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #35d0ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+/* 🔥 +1000 BAY LÊN */
+.checkin__floating-reward {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #35d0ff;
+  font-size: 18px;
+  font-weight: 600;
+  animation: floatUp 1s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) scale(1.1);
+  }
+}
